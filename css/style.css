@@ -21,3 +21,114 @@ h2 {
     font-weight: bold;
     font-family: "PT Sans Narrow", "Arial", sans-serif;
 }
+
+.clearfix::after {
+  content: "";
+
+  display: table;
+  clear: both;
+}
+
+.container {
+  width: 940px;
+  margin: 0 auto;
+  padding: 0 10px;
+  background-color: red;
+}
+
+.main-header {
+  margin-bottom: 53px;
+}
+
+.logo {
+  min-height: 70px;
+  width: 140px;
+  margin-right: 20px;
+  float: left;
+  background-color: yellow;
+}
+
+.main-navigation {
+  min-height: 70px;
+  width: 620px;
+  float: left;
+  background-color: yellow;
+}
+
+.user-block {
+  min-height: 70px;
+  width: 140px;
+  float: right;
+  background-color: yellow;
+}
+
+.breadcrumbs {
+    min-height: 70px;
+    width: 900px;
+    margin-bottom: 53px;
+    background-color: yellow;
+}
+
+.catalog-filter {
+  min-height: 600px;
+  float: left;
+  width: 220px;
+  margin-right: 20px;
+  background-color: yellow;
+}
+
+.catalog {
+  min-height: 600px;
+  float: left;
+  width: 700px;
+  font-size: 0px;
+  margin-bottom: 45px;
+  background-color: yellow;
+}
+
+.catalog-item {
+  display: inline-block;
+  width: 220px;
+  margin-right: 20px;
+  font-size: 14px;
+  margin-bottom: 20px;
+  background-color: green;
+}
+
+.catalog-item:nth-child(3n) {
+  margin-right: 0;
+}
+
+.pagination {
+  background-color: green;
+  clear: both;
+}
+/* Не пойму, почему контейнер не покрасился у футера красным и номера пагинатора куда-то пропали*/
+.main-footer {
+  margin-top: 65px;
+  padding-top: 60px;
+  padding-bottom: 40px;
+  background-color: yellow;
+}
+
+.footer-contacts {
+  float: left;
+  width: 320px;
+  margin-right: 60px;
+  min-height: 90px;
+  background-color: green;
+}
+
+.footer-social {
+  float: left;
+  width: 180px;
+  min-height: 90px;
+  background-color: green;
+}
+
+.footer-copyright {
+  float: right;
+  width: 180px;
+  min-height: 90px;
+  background-color: green;
+}
