@@ -24,9 +24,12 @@ h2 {
 
 .clearfix::after {
   content: "";
-
   display: table;
   clear: both;
+}
+
+.main-header {
+  background-color: green;
 }
 
 .container {
@@ -34,10 +37,6 @@ h2 {
   margin: 0 auto;
   padding: 0 10px;
   background-color: red;
-}
-
-.main-header {
-  margin-bottom: 53px;
 }
 
 .logo {
@@ -59,6 +58,14 @@ h2 {
   min-height: 70px;
   width: 140px;
   float: right;
+  background-color: yellow;
+}
+
+.inner-main {
+  background-color: green;
+}
+
+.main-title {
   background-color: yellow;
 }
 
@@ -102,13 +109,88 @@ h2 {
 .pagination {
   background-color: green;
   clear: both;
+  font-size: 14px;
 }
-/* Не пойму, почему контейнер не покрасился у футера красным и номера пагинатора куда-то пропали*/
+
+.column-half {
+  width: 460px;
+  float: left;
+  margin-right: 10px;
+  margin-bottom: 45px;
+  background-color: yellow;
+  min-height: 670px;
+  font-size: 0px;
+}
+
+.column-half:last-child {
+  margin-right: 0;
+}
+
+.item-img-mini {
+  float: left;
+  width: 140px;
+  margin-right: 20px;
+  margin-bottom: 50px;
+  margin-top: 20px;
+  background-color: green;
+}
+
+.item-img-mini:last-child {
+  margin-right: 0;
+}
+
+.column-half {
+  width: 460px;
+  float: left;
+  margin-right: 10px;
+  margin-bottom: 45px;
+  background-color: yellow;
+  min-height: 670px;
+  font-size: 0px;
+}
+
+.column-half:last-child {
+  margin-right: 0;
+}
+
+.item-img-mini {
+  float: left;
+  width: 140px;
+  margin-right: 20px;
+  margin-bottom: 50px;
+  margin-top: 20px;
+  background-color: green;
+}
+
+.item-img-mini:last-child {
+  margin-right: 0;
+}
+
+.item-description {
+  display: inline-block;
+  width: 400px;
+  font-size: 14px;
+  margin-bottom: 185px;
+  padding-left: 60px;
+  padding-top: 24px;
+  background-color: green;
+}
+
+.item-structure {
+  display: inline-block;
+  width: 400px;
+  font-size: 14px;
+  margin-bottom: 147px;
+  padding-left: 60px;
+  background-color: green;
+}
+
+
+
 .main-footer {
-  margin-top: 65px;
   padding-top: 60px;
   padding-bottom: 40px;
-  background-color: yellow;
+  background-color: green;
 }
 
 .footer-contacts {
@@ -116,19 +198,19 @@ h2 {
   width: 320px;
   margin-right: 60px;
   min-height: 90px;
-  background-color: green;
+  background-color: yellow;
 }
 
 .footer-social {
   float: left;
   width: 180px;
   min-height: 90px;
-  background-color: green;
+  background-color: yellow;
 }
 
 .footer-copyright {
   float: right;
   width: 180px;
   min-height: 90px;
-  background-color: green;
+  background-color: yellow;
 }
