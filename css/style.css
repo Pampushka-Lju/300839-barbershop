@@ -1,4 +1,5 @@
 body {
+    margin: 0;
     font-size: 14px;
     line-height: 18px;
     color: #000000;
@@ -7,6 +8,7 @@ body {
 }
 
 h1 {
+    margin: 0;
     font-size: 30px;
     line-height: 42px;
     color: #000000;
@@ -139,32 +141,6 @@ h2 {
   margin-right: 0;
 }
 
-.column-half {
-  width: 460px;
-  float: left;
-  margin-right: 10px;
-  margin-bottom: 45px;
-  background-color: yellow;
-  min-height: 670px;
-  font-size: 0px;
-}
-
-.column-half:last-child {
-  margin-right: 0;
-}
-
-.item-img-mini {
-  float: left;
-  width: 140px;
-  margin-right: 20px;
-  margin-bottom: 50px;
-  margin-top: 20px;
-  background-color: green;
-}
-
-.item-img-mini:last-child {
-  margin-right: 0;
-}
 
 .item-description {
   display: inline-block;
@@ -188,8 +164,6 @@ h2 {
 
 
 .main-footer {
-  padding-top: 60px;
-  padding-bottom: 40px;
   background-color: green;
 }
 
